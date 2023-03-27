@@ -35,6 +35,13 @@ div{
 div:hover{
     background-color: yellow;
 }
+div#res{
+    background-color: white;
+    width: 200px;
+    font-size: 30px;
+    border-style: none;
+    padding-top: 30px;
+}
 footer{
     color: white;
     text-align: center;

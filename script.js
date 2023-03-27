@@ -3,6 +3,7 @@ const jvelha = document.getElementsByClassName('velha')
 let checkTurn = true
 let jog_X = 'X'
 let jog_O = 'O'
+let res = document.getElementById('res')
 let positions =[
     [0,1,2],
     [3,4,5],
@@ -61,9 +62,9 @@ function checkEmpate(){
 
 function encJogo(venc = null){
     if(venc) {
-        window.alert('Vencedor: ' + venc)
+        res.innerText = (`Vencedor: ${venc}`)
     } else{
-        window.alert('Deu Velha')
+        res.innerText = ('Deu Velha')
     }
 }
 
