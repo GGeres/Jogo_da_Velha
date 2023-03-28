@@ -74,3 +74,5 @@ function encJogo(venc = null){
 
 
 
+
+
