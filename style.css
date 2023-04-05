@@ -33,6 +33,9 @@ div{
     font-size: 80px;
     box-sizing: border-box;
 }
+div.velha{
+    box-sizing: border-box;
+}
 div:hover{
     background-color: yellow;
     box-sizing: border-box;
