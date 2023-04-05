@@ -31,14 +31,14 @@ div{
     display: inline-block;
     text-align: center;
     font-size: 80px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 div.velha{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 div:hover{
     background-color: yellow;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 div#res{
     background-color: white;
