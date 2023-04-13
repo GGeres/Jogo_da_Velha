@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(70, 148, 236);
+    background-color: rgb(70, 161, 236);
     font: normal 15pt Arial;
 }
 
@@ -31,8 +31,8 @@ p{
 }
 
 div{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background-color: lightgrey;
     background-position: center center;
     border-style: solid;
